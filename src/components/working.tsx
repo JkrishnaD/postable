@@ -6,12 +6,12 @@ import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 
 export const WorkingSection = () => {
   return (
-    <div className="mx-auto flex h-fit w-full items-center max-w-full flex-col gap-6 py-12 md:gap-10 md:py-24 overflow-hidden">
-      <div className="px-4 text-2xl font-medium xl:pe-4 xl:ps-0 tracking-[-0.2px] text-neutral-800 md:text-[40px] md:leading-[42px] md:tracking-[-1px]">
+    <div className="mx-auto flex h-fit w-full max-w-full flex-col gap-6 py-12 overflow-hidden">
+      <div className="px-4 flex items-start pl-[160px] text-2xl font-medium text-neutral-800 md:text-[40px]">
         How it Works?
       </div>
       <div className="w-full px-4 flex gap-x-6 overflow-x-auto no-scrollbar items-center md:justify-center">
-        <CardContainer className="flex flex-col w-[350px] max-w-md mx-auto flex-shrink-0 p-6 rounded-lg bg-gray-100 shadow-lg h-full">
+        <CardContainer className="flex flex-col w-[350px] max-w-md mx-auto flex-shrink-0 p-6 rounded-xl bg-gray-100 shadow-lg h-full">
           <CardItem>
             <div className="flex items-center justify-center w-full mb-4">
               <Image
@@ -33,7 +33,7 @@ export const WorkingSection = () => {
             </div>
           </CardItem>
         </CardContainer>
-        <CardContainer className="flex flex-col w-[350px] max-w-md mx-auto flex-shrink-0  p-6 rounded-lg bg-gray-100 shadow-lg h-full">
+        <CardContainer className="flex flex-col w-[350px] max-w-md mx-auto flex-shrink-0  p-6 rounded-xl bg-gray-100 shadow-lg h-full">
           <CardItem>
             <div className="flex items-center justify-center w-full mb-4">
               <Image
@@ -43,8 +43,8 @@ export const WorkingSection = () => {
               />
             </div>
             <div className="flex flex-col">
-              <h1 className="text-gray-500 font-semibold mb-1">Step-2</h1>
-              <h3 className="text-lg text-black font-semibold mb-3">
+              <h1 className="text-gray-500 font-medium mb-1">Step-2</h1>
+              <h3 className="text-lg text-black font-medium mb-3">
                 Customize Desgin
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
@@ -55,7 +55,7 @@ export const WorkingSection = () => {
             </div>
           </CardItem>
         </CardContainer>
-        <CardContainer className="flex flex-col w-[350px] max-w-md mx-auto  p-6 rounded-lg bg-gray-100 shadow-lg h-full">
+        <CardContainer className="flex flex-col w-[350px] max-w-md mx-auto  p-6 rounded-xl bg-gray-100 shadow-lg h-full">
           <CardItem>
             <div className="flex items-center justify-center w-full mb-4">
               <Image
@@ -65,8 +65,8 @@ export const WorkingSection = () => {
               />
             </div>
             <div className="flex flex-col">
-              <h1 className="text-gray-500 font-semibold mb-1">Step-3</h1>
-              <h3 className="text-lg text-black font-semibold mb-3">Export!</h3>
+              <h1 className="text-gray-500 font-medium mb-1">Step-3</h1>
+              <h3 className="text-lg text-black font-medium mb-3">Export!</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Simply export and publish your meticulously crafted posts,
                 tailored to meet each social media’s standards and format.
