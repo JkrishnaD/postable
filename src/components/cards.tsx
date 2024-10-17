@@ -6,7 +6,7 @@ export const Cards = () => {
   return (
     <div className="relative flex items-center justify-center h-full p-6">
       <div className="relative flex gap-x-4 flex-row">
-        <div className="relative w-[200px] h-[300px] bg-blue-300 rounded-xl z-0 hover:z-20 shadow-lg transform  hover:rotate-[5deg] transition ease-in-out duration-200 hidden sm:inline-block">
+        <div className="relative w-[200px] h-[300px] bg-blue-300 rounded-xl z-0 hover:z-20 shadow-lg transform rotate-[-5deg]  hover:rotate-[5deg] transition ease-in-out duration-200 hidden sm:inline-block">
           <div className="absolute top-2 left-2 text-white text-lg font-bold flex items-center gap-x-1">
             <IoLogoLinkedin /> LinkedIn Post
           </div>

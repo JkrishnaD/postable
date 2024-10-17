@@ -16,6 +16,7 @@ export const HeroSection = () => {
         <div className="mt-4">
           <div className="mx-auto hidden max-w-xl items-center gap-1 rounded-2xl border-[1.5px] border-neutral-100 bg-white pl-5 pr-3 sm:flex lg:max-w-3xl shadow-lg">
             <input
+            id="input"
               type="url"
               className="flex-1 py-5 focus-visible:outline-none"
               placeholder="Paste the url..."

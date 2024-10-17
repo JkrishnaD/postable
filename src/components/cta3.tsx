@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa6";
 import appScreenshot from "@/app/assets/app-screenshot.webp"
+
 export const CallToAction3 = () => {
   return (
     <section className="rounded-[64px] overflow-hidden relative z-10 bg-neutral-900 drop-shadow-2xl text-white">

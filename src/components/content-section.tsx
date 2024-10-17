@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { FaPlus, FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io";
@@ -17,7 +17,7 @@ export const ContentSection = () => {
   };
 
   return (
-    <div className="content-main">
+    <section className="content-main z-10">
       <header className="py-6 px-4 text-white flex items-center flex-col text-xl">
         <h1 className="mx-auto max-w-xl text-balance text-center sm:text-[24px] leading-[28px] text-white font-bold sm:max-w-md sm:text-3xl sm:leading-[36px] md:max-w-2xl md:text-5xl md:leading-[48px] lg:text-6xl lg:leading-[54px]">
           Share Your Voice Beyond Just a Tweet
@@ -74,7 +74,7 @@ export const ContentSection = () => {
         {isActive === "instagram-story" && <InstagramStory />}
         {isActive === "instagram-post" && <InstagramPost />}
       </div>
-    </div>
+    </section>
   );
 };
 
