@@ -65,7 +65,9 @@ export const Footer = () => {
               Buy Coffee
             </button>
           </div>
-          <div className="mt-5 text-sm text-white/50 py-2 flex items-center">Copyright 2024 Postable</div>
+          <div className="mt-5 text-sm text-white/50 py-2 flex items-center h-full">
+            Copyright 2024 Postable
+          </div>
         </div>
       </div>
     </footer>

@@ -27,7 +27,7 @@ export const ContentSection = () => {
           images from your tweets, perfect for Instagram, Facebook, and more
         </p>
       </header>
-      <div className="mx-auto my-6 flex max-w-full items-center gap-3 px-4 sm:justify-center sm:gap-4 md:my-8 md:gap-5 h-fit no-scrollbar overflow-hidden">
+      <div className="mx-auto my-6 flex max-w-full items-center gap-3 px-4 sm:justify-center sm:gap-4 md:my-8 md:gap-5 h-fit no-scrollbar overflow-x-auto">
         <button
           onClick={() => handleButton("instagram-story")}
           className={cn(
