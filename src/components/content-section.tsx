@@ -1,5 +1,5 @@
 "use client";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { FaPlus, FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io";
@@ -12,7 +12,13 @@ export const ContentSection = () => {
     "instagram-story" | "facebook-post" | "linkedin-post" | "instagram-post"
   >("facebook-post");
 
-  const handleButton = (button: any) => {
+  const handleButton = (
+    button:
+      | "instagram-story"
+      | "facebook-post"
+      | "linkedin-post"
+      | "instagram-post"
+  ) => {
     setIsActive(button);
   };
 

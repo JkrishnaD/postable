@@ -7,7 +7,7 @@ const faqData = [
   {
     question: "Is Postable free to use?",
     answer:
-      "Yes, it’s completely free and unlimited! You can convert as many tweets into social media images as you’d like without any restrictions.",
+      "Yes, it's completely free and unlimited! You can convert as many tweets into social media images as you’d like without any restrictions.",
   },
   {
     question: "What social media platforms does this tool support?",
@@ -47,7 +47,7 @@ export const FAQs = () => {
       </header>
       <div className="flex flex-col sm:flex-row w-full gap-x-4 md:gap-24 my-5">
         <div className="max-w-sm hidden md:flex flex-col py-4 space-y-1">
-          <p className="text-[16px]">Couldn't find your answer?</p>
+          <p className="text-[16px]">Couldn&apos;t find your answer?</p>
           <a href="/" className="text-[14px] text-purple-500 flex items-center">
             Ask a Question <FaArrowRight className="pl-1" />
           </a>
@@ -97,7 +97,7 @@ export const FAQs = () => {
             </div>
           ))}
           <div className="max-w-sm flex-col py-4 space-y-1 sm:hidden flex mt-2">
-            <p className="text-[16px]">Couldn't find your answer?</p>
+            <p className="text-[16px]">Couldn&apos;t find your answer?</p>
             <a
               href="/"
               className="text-[14px] text-purple-500 flex items-center"

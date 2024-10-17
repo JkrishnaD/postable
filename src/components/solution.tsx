@@ -12,7 +12,9 @@ export const Solution = () => {
     "individuals" | "influencers" | "businesses"
   >("individuals");
 
-  const handleState = (newState: any) => {
+  const handleState = (
+    newState: "individuals" | "influencers" | "businesses"
+  ) => {
     setState(newState);
   };
 
@@ -52,8 +54,7 @@ export const Solution = () => {
             <button
               className={cn(
                 "solution-btn ",
-                state === "influencers" &&
-                  "bg-white opacity-100 rounded-xl"
+                state === "influencers" && "bg-white opacity-100 rounded-xl"
               )}
               onClick={() => handleState("influencers")}
             >
@@ -114,7 +115,7 @@ const IndividualContent = () => {
     <div className="me-auto max-w-xl mt-7 space-y-10">
       <p className="text-gray-500 text-base">
         Postable is perfect for individuals who want to elevate their social
-        media presence without the hassle. Whether you're sharing thoughts,
+        media presence without the hassle. Whether you&apos;re sharing thoughts,
         opinions, or everyday moments, Postable makes it easy to create and
         share beautiful, impactful posts from your tweets.
       </p>

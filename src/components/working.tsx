@@ -2,7 +2,7 @@ import Image from "next/image";
 import step1 from "@/app/assets/step-1.webp";
 import step3 from "@/app/assets/step-2.webp";
 import step2 from "@/app/assets/step-3.webp";
-import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import { CardContainer, CardItem } from "./ui/3d-card";
 
 export const WorkingSection = () => {
   return (
@@ -23,11 +23,11 @@ export const WorkingSection = () => {
             <div className="flex flex-col">
               <h1 className="text-gray-500 font-medium mb-1">Step-1</h1>
               <h3 className="text-base text-black font-medium mb-3">
-                Copy Tweet's Link
+                Copy Tweet&apos;s Link
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 On X/Twitter, click the share icon at the bottom-right of the
-                tweet and select 'Copy Link.' Then, paste the link into the box
+                tweet and select &apos;Copy Link.&apos; Then, paste the link into the box
                 above.
               </p>
             </div>
