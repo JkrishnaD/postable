@@ -1,5 +1,6 @@
 import { FaDesktop } from "react-icons/fa";
 import { TbClipboardText } from "react-icons/tb";
+import { SampleTweet } from "./sample";
 
 export const HeroSection = () => {
   return (
@@ -19,18 +20,23 @@ export const HeroSection = () => {
               className="flex-1 py-5 focus-visible:outline-none"
               placeholder="Paste the url..."
             />
-            <button className="flex items-center bg-neutral-100 text-neutral-900 p-2 rounded-lg gap-x-1 text-sm">
+            <button className="flex items-center bg-neutral-100 text-neutral-900 p-2 rounded-xl gap-x-1 text-sm">
               Paste <TbClipboardText />
             </button>
           </div>
           <div className="flex flex-col items-center justify-center w-fit space-y-1 mx-auto rounded-2xl bg-neutral-50 text-neutral-500 max-w-xl border border-dashed py-6 px-9 sm:hidden">
             <FaDesktop className="size-3.5 mb-2" />
-            <h3 className="text-[13px] text-neutral-600">Please visit Desktop</h3>
+            <h3 className="text-[13px] text-neutral-600">
+              Please visit Desktop
+            </h3>
             <p className="text-[12px]">Postable mobile is under construction</p>
           </div>
-          <div className="text-sm text-neutral-400 sm:mt-6 mt-4">
+          <div className="text-sm text-neutral-400 sm:mt-6 mt-6">
             No signup, no credit card, no crap!
           </div>
+        </div>
+        <div className="mx-auto flex justify-center items-center scale-75">
+          <SampleTweet />
         </div>
       </div>
     </section>

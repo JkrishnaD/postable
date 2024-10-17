@@ -136,7 +136,7 @@ const IndividualContent = () => {
 
 const InfluencerContent = () => {
   return (
-    <div className="me-auto max-w-xl mt-4">
+    <div className="me-auto max-w-xl mt-7 space-y-10">
       <p className="text-gray-500 text-base">
         For influencers, maintaining a consistent and visually appealing social
         media presence is crucial. Postable empowers you to convert your tweets
@@ -159,7 +159,7 @@ const InfluencerContent = () => {
 
 const BusinessContent = () => {
   return (
-    <div className="me-auto max-w-xl mt-4">
+    <div className="me-auto max-w-xl mt-7 space-y-10">
       <p className="text-gray-500 text-base">
         Postable is perfect for businesses that want to maintain a strong online
         presence effortlessly. Share updates, announcements, and more across all

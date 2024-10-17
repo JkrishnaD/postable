@@ -12,9 +12,9 @@ export const CallToAction2 = () => {
             shared across all your social media platforms.
           </span>
         </div>
-        <button className="bg-black text-white flex items-center rounded-2xl justify-center px-3 py-2 w-fit font-semibold gap-x-1">
+        <a href="/" className="bg-neutral-800 text-white flex items-center rounded-xl justify-center px-4 py-3 w-fit font-semibold gap-x-1 mt-5">
           Get Started for Free <FaArrowRight />
-        </button>
+        </a>
       </div>
     </div>
   );
