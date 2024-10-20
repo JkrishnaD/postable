@@ -6,7 +6,7 @@ import { CardContainer, CardItem } from "./ui/3d-card";
 
 export const WorkingSection = () => {
   return (
-    <div className="mx-auto flex h-fit items-center justify-center w-full flex-col gap-6 py-12 overflow-hidden">
+    <div className="mx-auto flex h-fit items-center justify-center w-full flex-col gap-6 py-12 overflow-hidden bg-white z-20">
       <div className="px-4 flex items-center w-full pl-[160px] text-2xl font-medium text-neutral-800 md:text-[40px]">
         How it Works?
       </div>

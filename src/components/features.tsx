@@ -7,7 +7,7 @@ import feature5 from "@/app/assets/feature-5.webp";
 
 export const Features = () => {
   return (
-    <div className="relative flex w-full flex-col items-start py-12 md:py-24">
+    <div className="relative flex w-full flex-col items-start py-12 md:py-24 bg-white z-20">
       <div className="mx-auto w-full max-w-6xl px-4 text-3xl font-medium tracking-[-0.2px] md:mb-2 md:text-[40px] md:leading-[42px] md:tracking-[-1px] xl:pe-4 xl:ps-0">
         Our Features
       </div>

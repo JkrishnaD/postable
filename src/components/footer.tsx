@@ -5,7 +5,7 @@ import { SiBuymeacoffee } from "react-icons/si";
 
 export const Footer = () => {
   return (
-    <footer className="bg-[url('https://res.cloudinary.com/dzv61qpeu/image/upload/v1726153159/footer-background_nfg8rf.webp')] bg-cover bg-center h-full w-full relative z-0 -mt-20 -bottom-4">
+    <footer className="bg-[url('https://res.cloudinary.com/dzv61qpeu/image/upload/v1726153159/footer-background_nfg8rf.webp')] bg-cover bg-center h-full w-full sticky z-0 -mt-20 -bottom-4">
       <div className="mx-auto mt-12 w-full max-w-6xl flex-col px-4 pt-48 sm:px-12 md:pb-24 xl:pe-4 xl:ps-0 text-white">
         <div className="text-xl font-bold ">Postable</div>
         <div className="flex flex-col md:flex-row sm:mt-10 gap-4 py-5">

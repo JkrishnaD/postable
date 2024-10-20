@@ -17,7 +17,7 @@ import { WorkingSection } from "@/components/working";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col no-scrollbar">
+    <div className="relative flex flex-col no-scrollbar bg-white">
       <Header />
       <HeroSection />
       <ContentSection />

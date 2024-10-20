@@ -31,7 +31,7 @@ export const Solution = () => {
   }, []);
 
   return (
-    <section className="flex relative mx-auto w-full h-full px-4 lg:pl-[144px] flex-row items-center justify-center my-16">
+    <section className="flex relative mx-auto w-full h-full px-4 lg:pl-[144px] flex-row items-center justify-center z-20 bg-white">
       <div className="relative flex items-start flex-col w-full sm:flex-row ">
         <div className="flex flex-col">
           <div className="flex items-start mt-4 flex-col">

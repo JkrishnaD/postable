@@ -4,7 +4,7 @@ import { SampleTweet } from "./sample";
 
 export const HeroSection = () => {
   return (
-    <section className="relative flex flex-col justify-center items-center h-full top-20 w-full">
+    <section className="relative flex flex-col justify-center items-center h-full top-20 w-full bg-white z-20">
       <div className="mx-auto mt-8 flex w-full max-w-6xl flex-col gap-5 px-4 py-8 text-center md:mt-0 md:py-28 xl:pe-4 xl:ps-0">
         <div className="mx-auto w-full max-w-5xl text-balance px-8 text-center text-[28px] sm:font-bold leading-[30px] tracking-tight text-[#252424] md:px-0 md:text-[80px] md:leading-[80px] font-extrabold">
           Convert <div className="relative inline-block pr-2">Tweets </div>
